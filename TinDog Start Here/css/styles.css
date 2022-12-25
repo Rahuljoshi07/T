@@ -1,0 +1,146 @@
+body{
+  font-family:"Montserrat";
+  text-align:center;
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:"Montserrat-Bold";
+}
+p{
+  color:#8f8f8f;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+
+   /* HEADING */
+.big heading{
+    font-family:"Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+/* navigation Bar */
+.navbar{
+  padding-bottom:0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+/* Download button */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+.img{
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+
+}
+
+
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* testimonials */
+#testimonials{
+  padding: 7% 12%;
+  background-color: #ef8172;
+  color: #fff;
+}
+. testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-col{
+  padding:3%  2%;
+}
+
+.testimonial-img{
+   width:10%;
+   border-radius: 100%;
+   margin: 20px;
+}
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* .carousel-item{
+  width: 15%;
+}*/
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+
+}
+@media (max-width:1020px) {
+  .img{
+    position: static;
+    transform:rotate(0);
+  }
+
+}
+#title{
+  text-align: center;
+}
+.social{
+  margin: 20px 10px;
+  margin: 1rem;
+
+}
